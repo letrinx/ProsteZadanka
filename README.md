@@ -24,3 +24,10 @@ min_and_max([]) # zwróci (None, None)
 speed(100,10) # zwróci 10 m/s
 speed(2,10) # zwróci 0.2 m/s
 ```
+
+4. Napisz funkcję `split_list(lista)`, która podzieli listę na dwie listy (pierwszy element do pierwszej drugi do drugiej, trzeci do pierwszej, czwarty do drugiej itd.) i zwróci jaką krotkę list.
+
+```py
+print(split_list([1,3,5,7,10,11,12,13]))
+# Zwróci ([1,5,10,12], [3,7,11,13])
+```
