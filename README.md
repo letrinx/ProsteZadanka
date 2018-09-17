@@ -38,3 +38,10 @@ print(split_list([1,3,5,7,10,11,12,13]))
 print(multiply_list([3,5,2,6], 2))
 # zwróci [6,10,4,12]
 ```
+
+6. Napisz funkcję `count_character(text, letter)`, która zróci liczbę wystąpień podanej litery `letter` w tekscie `text`. Zliczamy duże i małe litery.
+
+```py
+print(count_character('Mam dzisiaj dobry humor', 'm'))
+# zwróci 3
+```
