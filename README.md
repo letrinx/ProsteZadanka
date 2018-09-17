@@ -31,3 +31,10 @@ speed(2,10) # zwróci 0.2 m/s
 print(split_list([1,3,5,7,10,11,12,13]))
 # Zwróci ([1,5,10,12], [3,7,11,13])
 ```
+
+5. Napisz funkcję `multiply_list(lista, num)`, która pomnoży każdy element listy przez liczbę `num` i ją zwróci.
+
+```py
+print(multiply_list([3,5,2,6], 2))
+# zwróci [6,10,4,12]
+```
