@@ -45,3 +45,29 @@ print(multiply_list([3,5,2,6], 2))
 print(count_character('Mam dzisiaj dobry humor', 'm'))
 # zwróci 3
 ```
+
+7. Napisz funkcję `count_all_characters(text)`, która zwróci słownik składający się z kluczy będących znakami w tekście, a wartościami liczbą wystąpień danej litery.
+
+```py
+print(count_all_characters('Mam dzisiaj dobry humor'))
+'''
+Zwróci
+{
+    'm': 3,
+    'a': 2,
+    ' ': 3,
+    'd': 2,
+    'z': 1,
+    'i': 2,
+    's': 1,
+    'j': 1,
+    'o': 2,
+    'b': 1,
+    'r': 2,
+    'y': 1,
+    'h': 1,
+    'u': 1,
+    'r': 1
+}
+'''
+```
